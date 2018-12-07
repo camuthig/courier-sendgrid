@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Camuthig\Courier\SendGrid\Test;
 
-use Courier\Exceptions\TransmissionException;
-use Courier\Exceptions\UnsupportedContentException;
 use Camuthig\Courier\SendGrid\SendGridCourier;
 use Camuthig\Courier\SendGrid\Test\Support\TestContent;
+use Courier\Exceptions\TransmissionException;
+use Courier\Exceptions\UnsupportedContentException;
 use Exception;
 use Mockery;
 use PhpEmail\Address;
