@@ -14,7 +14,8 @@
         "php": "^7.1",
         "psr/log": "^1.0",
         "quartzy/courier": "^0.4.0",
-        "sendgrid/sendgrid": "^5.1"
+        "sendgrid/sendgrid": "^7.0",
+        "sendgrid/php-http-client": "^3.9.3"
     },
     "require-dev": {
         "ext-imap": "*",
