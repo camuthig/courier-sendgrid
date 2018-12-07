@@ -8,7 +8,7 @@
 [![Style Status][ico-styleci]][link-styleci]
 [![Scrutinizer Code Quality][ico-scrutinizer]][link-scrutinizer]
 
-A courier implementation for Sparkpost.
+A courier implementation for SendGrid.
 
 See [documentation](https://quartzy.github.io/courier/couriers/sendgrid/) for full details.
 
