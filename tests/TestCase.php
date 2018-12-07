@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Courier\Test;
+namespace Camuthig\Courier\SendGrid\Test;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

@@ -2,17 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Courier\Test;
+namespace Camuthig\Courier\SendGrid\Test;
 
-use Courier\SendGridCourier;
-use Courier\SparkPostCourier;
+use Camuthig\Courier\SendGrid\SendGridCourier;
 use PhpEmail\Attachment\FileAttachment;
 use PhpEmail\Content\SimpleContent;
 use PhpEmail\Content\TemplatedContent;
 use PhpEmail\EmailBuilder;
 
 /**
- * @covers \Courier\SendGridCourier
+ * @covers \Camuthig\Courier\SendGrid\SendGridCourier
  * @large
  */
 class SendGridCourierIntegrationTest extends IntegrationTestCase
@@ -23,7 +22,7 @@ class SendGridCourierIntegrationTest extends IntegrationTestCase
     private static $file = '/tmp/attachment_test.txt';
 
     /**
-     * @var SparkPostCourier
+     * @var SendGridCourier
      */
     private $courier;
 

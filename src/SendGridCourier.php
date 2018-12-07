@@ -2,10 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Courier;
+namespace Camuthig\Courier\SendGrid;
 
+use Courier\ConfirmingCourier;
 use Courier\Exceptions\TransmissionException;
 use Courier\Exceptions\UnsupportedContentException;
+use Courier\SavesReceipts;
 use Exception;
 use PhpEmail\Address;
 use PhpEmail\Content;

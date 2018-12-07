@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Courier\Test;
+namespace Camuthig\Courier\SendGrid\Test;
 
 use Courier\Exceptions\TransmissionException;
 use Courier\Exceptions\UnsupportedContentException;
-use Courier\SendGridCourier;
-use Courier\Test\Support\TestContent;
+use Camuthig\Courier\SendGrid\SendGridCourier;
+use Camuthig\Courier\SendGrid\Test\Support\TestContent;
 use Exception;
 use Mockery;
 use PhpEmail\Address;
@@ -23,9 +23,7 @@ use SendGrid\Mail;
 use SendGrid\Response;
 
 /**
- * @covers \Courier\SendGridCourier
- * @covers \Courier\Exceptions\TransmissionException
- * @covers \Courier\Exceptions\UnsupportedContentException
+ * @covers \Camuthig\Courier\SendGrid\SendGridCourier
  */
 class SendGridCourierTest extends TestCase
 {

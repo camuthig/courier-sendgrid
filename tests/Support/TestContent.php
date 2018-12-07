@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Courier\Test\Support;
+namespace Camuthig\Courier\SendGrid\Test\Support;
 
 use PhpEmail\Content;
 
