@@ -70,14 +70,14 @@ The Apache License, v2.0. Please see [License File](LICENSE) for more informatio
 [ico-license]: https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg?style=flat-square
 [ico-travisci]: https://img.shields.io/travis/camuthig/courier-sendgrid.svg?style=flat-square
 [ico-codecov]: https://img.shields.io/scrutinizer/coverage/g/camuthig/courier-sendgrid.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/projectid/shield
+[ico-styleci]: https://styleci.io/repos/160843528/shield
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/g/camuthig/courier-sendgrid.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/camuthig/courier-sendgrid.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/camuthig/courier-sendgrid
 [link-travisci]: https://travis-ci.org/camuthig/courier-sendgrid
 [link-codecov]: https://scrutinizer-ci.com/g/camuthig/courier-sendgrid
-[link-styleci]: https://styleci.io/repos/projectid
+[link-styleci]: https://styleci.io/repos/160843528
 [link-scrutinizer]: https://scrutinizer-ci.com/g/camuthig/courier-sendgrid
 [link-downloads]: https://packagist.org/packages/camuthig/courier-sendgrid
 [link-contributors]: ../../contributors
