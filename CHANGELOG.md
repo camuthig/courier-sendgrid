@@ -7,6 +7,12 @@ and this project attempts to follow [Semantic Versioning](http://semver.org/spec
 
 ## Unreleased
 
+## 0.1.1
+
+### Added
+
+* Update dependency to support `quartzy/courier` ^0.5.0
+
 ## 0.1.0
 
 ### Changed
