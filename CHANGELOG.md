@@ -7,6 +7,12 @@ and this project attempts to follow [Semantic Versioning](http://semver.org/spec
 
 ## Unreleased
 
+## 0.2.0 - 2018-12-12
+
+### Changed
+
+* Update `sendgrid/sendgrid` dependency to ^7.0
+
 ## 0.1.1
 
 ### Added
