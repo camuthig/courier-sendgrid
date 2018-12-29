@@ -12,7 +12,6 @@ use Exception;
 use Mockery;
 use PhpEmail\Address;
 use PhpEmail\Attachment\FileAttachment;
-use PhpEmail\Content\EmptyContent;
 use PhpEmail\Content\SimpleContent;
 use PhpEmail\Content\TemplatedContent;
 use PhpEmail\Email;
@@ -142,7 +141,7 @@ class SendGridCourierTest extends TestCase
 
         $email = new Email(
             'Subject',
-            new EmptyContent(),
+            SimpleContent::text(''),
             new Address('sender@test.com'),
             [new Address('recipient@test.com')]
         );
@@ -296,7 +295,7 @@ class SendGridCourierTest extends TestCase
 
         $email = new Email(
             'Subject',
-            new EmptyContent(),
+            SimpleContent::text(''),
             new Address('sender@test.com'),
             [new Address('recipient@test.com')]
         );
@@ -323,7 +322,7 @@ class SendGridCourierTest extends TestCase
 
         $email = new Email(
             'Subject',
-            new EmptyContent(),
+            SimpleContent::text(''),
             new Address('sender@test.com'),
             [new Address('recipient@test.com')]
         );
@@ -350,7 +349,7 @@ class SendGridCourierTest extends TestCase
 
         $email = new Email(
             'Subject',
-            new EmptyContent(),
+            SimpleContent::text(''),
             new Address('sender@test.com'),
             [new Address('recipient@test.com')]
         );

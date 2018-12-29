@@ -63,10 +63,6 @@ class SendGridCourier implements ConfirmingCourier
         $mail = $this->prepareEmail($email);
 
         switch (true) {
-            case $email->getContent() instanceof Content\EmptyContent:
-                $response = $this->sendEmptyContent($mail);
-                break;
-
             case $email->getContent() instanceof Content\Contracts\SimpleContent:
                 $response = $this->sendSimpleContent($mail, $email->getContent());
                 break;
@@ -106,7 +102,6 @@ class SendGridCourier implements ConfirmingCourier
     protected function supportedContent(): array
     {
         return [
-            Content\EmptyContent::class,
             Content\Contracts\SimpleContent::class,
             Content\Contracts\TemplatedContent::class,
         ];
@@ -234,18 +229,6 @@ class SendGridCourier implements ConfirmingCourier
         } catch (Exception $e) {
             throw new TransmissionException($e->getCode(), $e);
         }
-    }
-
-    /**
-     * @param Mail $email
-     *
-     * @return SendGrid\Response
-     */
-    protected function sendEmptyContent(Mail $email): SendGrid\Response
-    {
-        $email->addContent(new SendGrid\Mail\PlainTextContent(''));
-
-        return $this->send($email);
     }
 
     /**
